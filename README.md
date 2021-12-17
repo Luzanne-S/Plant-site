@@ -1,3 +1,3 @@
-# Practice
+#  Design Practice
 
-a repo to test out code
+Practicing my design skills based off on an existing template 
