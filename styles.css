@@ -367,17 +367,7 @@ form{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-input[type=text], select, textarea {
-    width: 40%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
+
   input[type=submit] {
     background-color: #A05841;
     color: white;
@@ -387,9 +377,20 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
+  .footer_row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:flex;
+    z-index:1;
+  
+ }
 
-
-
+footer{
+    width:95vw;
+    margin:auto;
+    background-color: #123132;
+    height: 500px;
+}
 
 
 
