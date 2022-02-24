@@ -7,12 +7,12 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     background-color: #EDEDEE;
-    color: #A05841;
+    color:  #808080;
 }
 
 h4{
     font-family: 'Inter', sans-serif;
-    color: #A05841;
+    color:  #808080;
     font-weight:bold;
 }
 
@@ -25,24 +25,8 @@ h4{
     width:95vw;
     height:7vh; 
 }
-.searchbox{
-    color:#A05841;
-    line-height: 2;
-    border: none;
-}
-input:focus{
-    outline:none;
-    border: #A05841;
-}
-::placeholder{
-    color:#A05841;
-    font-size: small;
-}
 
-.search{
-    border: none;
-    background-color: #fff;
-}
+
 .active{
     color: #A05841;
     font-size: small;
@@ -137,7 +121,7 @@ input[type=checkbox]{
 }
 .main_background::before{
     content: "";
-    background-image: url("images/annie-spratt-8mqOw4DBBSg-unsplash.jpg");
+    background-image: url("images/pexels-inga-seliverstova-3578393.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -147,7 +131,7 @@ input[type=checkbox]{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.6;
+ 
 }
 .main-text{
    position: relative;
@@ -161,6 +145,10 @@ input[type=checkbox]{
    margin-top: -25%;
    line-height: 0.9;
    text-align: center;
+}
+.main-p{
+    z-index: 2;
+    color: #fff;
 }
 
 h2:after{
@@ -186,15 +174,15 @@ h2:after{
     height:7px;
     width:11%;
     color:#fff;
-    background-color: #A05841;
+    background-color:  #808080;
 }
 
 .plant_row{
    margin-top: 5%;
    margin-bottom: 5%;
    display:flex;
-   z-index:1;
-   margin-left: 10px;
+   flex-direction: row;
+   margin:auto;
   
 }
 
@@ -202,6 +190,11 @@ h2:after{
     height:70vh;
     float:right;
 
+}
+.container-shop{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
 }
 .plant1,.plant2,.plant3{
     display:flex;
@@ -212,10 +205,7 @@ h2:after{
     padding:20px;
     padding-top: 2%;
     width:100%;
-    max-height:700px;
-    min-width: 100px;
     background-color: #fff;
-    z-index:1;
 }
 .plant-p_suc{
     margin-top: -2%;
@@ -229,7 +219,7 @@ h2:after{
     width: 20px;
     margin-top: 15%;
     height: 3px;
-    background-color: #A05841;
+    background-color:  #808080;
 }
   
  .img1{
@@ -249,7 +239,7 @@ h2:after{
         width: 20px;
         margin-top: 30%;
         height: 3px;
-        background-color: #A05841;
+        background-color:  #808080;
     }
 .shop_collection{
         text-align: center;
@@ -258,37 +248,11 @@ h2:after{
         height:8px;
         width:40%;
         color:#fff;
-        background-color: #A05841;
+        background-color:  #808080;
         border: none;
         margin-bottom: 5%;
     }
-.About{
-    width:95vw;
-    margin: auto;
-}
-.about_us{
-  float: left;
-  text-align: center;
-  width: 50%;
-  padding: 5%;
-  height: 56vh;
-  background-color: #fff;
-}
 
-.aboutus-h3:after{
-    content: '';
-    display: block;
-    margin: auto;
-    width: 20px;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    height: 3px;
-    background-color: #A05841;
-}
-.about-p{
-   width:80%;
-   margin: auto;
-}
 .discount{
     float: right;
     text-align: center;
@@ -358,8 +322,12 @@ h2:after{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding:2%;
-    width:60%;
+    width:30%;
+    text-align: center;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 5.5px );
@@ -370,12 +338,17 @@ form{
 
 
   input[type=submit] {
-    background-color: #A05841;
+    margin:auto;
+    background-color: #808080;
     color: white;
     padding: 12px 20px;
     width:30%;
     border: none;
     cursor: pointer;
+  }
+  input[type=submit]:hover{
+      background: rgba( 255, 255, 255, 0.25 ) ;
+      border-color: #fff;
   }
   
   .footer_row{
@@ -393,7 +366,14 @@ footer{
     height: 500px;
 }
 
-
+@media (max-width:800px) {
+    .container-shop{
+        flex-direction: column;
+    }
+    form{
+        width:80%;
+    }
+}
 
 
 
