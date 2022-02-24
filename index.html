@@ -20,7 +20,6 @@
       <nav class="flex-container navBarList">
         <h4>THE URBAN GARDEN</h4> 
         <ul class="navLinks">
-          <input type="checkbox" id="checkbox_toggle" />
         <li class="main-link"><a class="active" href="#">Shop</a>
         <ul class="dropdown">
           <li>cacti</li>
@@ -66,22 +65,26 @@
     </div>
   </div>
  <!---About Us-->
- 
+ <div id="About">
+   <div class="about-text">
+   <p class="about-p">Propelled by our affection for flowers and energy about nature, it is our obsession to make creative and noteworthy plant and new flower courses of action. We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
+   </div>
+   <div class="about-image">
+   <img class="about-img" src="images/lauren-mancke-DpphPG9ENsI-unsplash.jpg" alt="plant in pot"/>
+   </div>
+ </div>
   <!--Requests and Orders-->
   <div class="container-fluid requests">
    <form>
     <h3 class="form-h3">FOR SPECIAL REQUESTS & ORDERS</h3>
-    <label for="fname">First Name *</label>
-    <input type="text" id="fname" name="firstname">
-    <label for="lname">Last Name *</label>
-    <input type="text" id="lname" name="lastname">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" required>
     <label for="phone">Phone</label>
     <input type="text" id="mail" name="lastname">
     <label for="email">Email</label>
-    <input type="text" id="message" name="lastname">
+    <input type="text" id="message" name="lastname"required>
     <label for="subject">Message</label>
-    <textarea id="subject" name="subject" style="height:200px"></textarea>
-
+    <textarea id="subject" name="subject" style="height:200px" required></textarea>
     <input type="submit" value="Send">
    </form>
   </div>
