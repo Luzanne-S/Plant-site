@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Design Practice</title>
   </head>
   <body>
@@ -36,11 +38,13 @@
     <!--Main-->
     </section>
     <div class="main_background">
-    <div class="main-text"> <h2>ESTB</h2> <i class="fab fa-pagelines"></i> <h2>2023</h2> 
+
+    <div class="main-text" data-aos="fade-up" data-aos-duration="3000"> <h2>ESTB</h2> <i class="fab fa-pagelines"></i> <h2>2023</h2> 
     </div>
-    <div class="heading"><h1>THE URBAN GARDEN</h1> 
+    <div class="heading"data-aos="fade-up" data-aos-duration="3000"><h1>THE URBAN GARDEN</h1> 
       <p class="main-p">BRING NATURE INDOORS</p>
     </div>
+
     </div>
     <!---Plant Shop-->
   <div class="container-shop">
@@ -66,10 +70,12 @@
  <!---About Us-->
  <div id="About">
    <div class="about-text">
+    <div data-aos="fade-right"data-aos-duration="1500">
      <h3 class="about-h3">About</h3>
    <p class="about-p">Propelled by our affection for flowers and energy about nature, it is our obsession to make creative and noteworthy plant and new flower courses of action. </p>
    <br/>
    <p class="about-p">We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
+  </div>
    </div>
    <div class="about-image">
    <img class="about-img" src="images/pexels-scott-webb-1022922.jpg" alt="plant in pot"/>
@@ -116,5 +122,8 @@
         </div> 
       </section>
     </footer>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
