@@ -4,41 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/5d391d372a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Design Practice</title>
+    <title>THE URBAN GARDEN</title>
   </head>
   <body>
     <!--Navbar-->
-    <section class="flex-container navBarSearch">
-     
       <nav class="flex-container navBarList">
         <h4>THE URBAN GARDEN</h4> 
         <ul class="navLinks">
-        <li class="main-link"><a class="active" href="#">Shop</a>
-        <ul class="dropdown">
-          <li>cacti</li>
-          <li>plants</li>
-          <li>succulents</li>
-        </ul>
-      </li>
-        <li class="main-link"><a href="#">About</a></li>
-        <li class="main-link"><a href="#">FAQ</a></li>
-        <li class="main-link"><a href="#">Contact</a></li>
-      </ul>
-        
+        <li class="main-link"><a href="#">Shop</a> </li>
+        <li class="main-link"><a href="#About">About</a></li>
+        <li class="main-link"><a href="faq.html">FAQ</a></li>
+        <li class="main-link"><a href="#contact">Contact</a></li>
+      </ul>    
     </nav>
     <!--Main-->
-    </section>
     <div class="main_background">
-
     <div class="main-text" data-aos="fade-up" data-aos-duration="3000"> <h2>ESTB</h2> <i class="fab fa-pagelines"></i> <h2>2023</h2> 
     </div>
     <div class="heading"data-aos="fade-up" data-aos-duration="3000"><h1>THE URBAN GARDEN</h1> 
@@ -71,7 +58,7 @@
  <div id="About">
    <div class="about-text">
     <div data-aos="fade-right"data-aos-duration="1500">
-     <h3 class="about-h3">About</h3>
+     <h3 class="about-h3">ABOUT</h3>
    <p class="about-p">Propelled by our affection for flowers and energy about nature, it is our obsession to make creative and noteworthy plant and new flower courses of action. </p>
    <br/>
    <p class="about-p">We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
@@ -82,9 +69,9 @@
    </div>
  </div>
   <!--Requests and Orders-->
-  <div class="container-fluid requests">
+  <div id="contact">
    <form>
-    <h3 class="form-h3">FOR SPECIAL REQUESTS & ORDERS</h3>
+    <h3 class="form-h3">CONTACT US</h3>
     <label for="fname">Name</label>
     <input type="text" id="fname" name="name" required>
     <label for="phone">Phone</label>
