@@ -290,7 +290,7 @@ h2:after{
     margin-bottom: 5%;
 }
 
-.requests{ 
+#contact{ 
     position: relative;
     margin:auto; 
     height: 100vh;
@@ -302,7 +302,7 @@ h2:after{
     background-size: cover;
    
 }
-.requests::before{
+#contact::before{
     content: "";
     position: absolute;
     top: 0px;
@@ -370,8 +370,11 @@ footer{
     background-color: #30694B;
     color: #fff;
     height:30vh;
+    padding-bottom: 5%;
 }
-
+.fa-brands{
+    padding:10px;
+}
 @media (max-width:800px) {
     .container-shop{
         flex-direction: column;
