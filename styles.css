@@ -470,10 +470,32 @@ input[type=checkbox]:checked ~.answer-p{
         .navBarList .show-menu {
             display:block;
         }
-    
-    .container-shop{
+        .heading{
+            font-size: medium;
+            justify-content: center;
+            margin-top: 15%;
+            margin-left: -70%;
+        }
+    .plant_row{
+        display:flex;
         flex-direction: column;
     }
+    #About{
+        flex-direction: column;
+    
+    }
+    .about-text{
+        width: 100%;
+        height: fit-content;
+    }
+    .about-image{
+        width:100%;
+        margin-bottom: 10%;
+    }
+    .about-p{
+        width:100%;
+    }
+  
     form{
         width:80%;
     }
