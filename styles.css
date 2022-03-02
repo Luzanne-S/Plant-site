@@ -23,7 +23,13 @@ a {
    }
 
 
-
+#faq-lines{
+    display: none;
+}
+#faq-nav{
+ 
+    padding-bottom: 5%;
+}
 .navBarList{
     display:block;
     width:100%;
@@ -159,6 +165,7 @@ h2:after{
 	background-color: #fff;
 }
 .heading{
+    margin-top: 10%;
     position: relative;
     color: #fff; 
     margin-left:-40%;
@@ -239,7 +246,7 @@ h2:after{
     }
 .shop_collection{
         text-align: center;
-        padding:20px;
+        padding-top:20px;
         padding-bottom: 30px;
         height: 20px;
         width:50%;
@@ -277,6 +284,8 @@ h2:after{
 #About{
     display: flex;
     flex-direction: row;
+    height:50vh;
+    margin-bottom: 10%;
 
 }
 .about-h3{
@@ -286,7 +295,7 @@ h2:after{
 .about-text{
     background-color: #fff;
     width: 50%;
-    height: 408px;
+    height: 506px;
     padding-left: 10%;
     padding-top: 8%;
 }
@@ -298,7 +307,7 @@ h2:after{
 }
 .about-img{
     width:100%;
-   height: 80%;
+   height: auto;
 }
   .shop_now1{
     text-align: center;
@@ -404,6 +413,10 @@ footer{
 .main-faq{
   display: flex;
   flex-direction: row;
+  margin-top: 5%;
+}
+#faq-h4{
+    display: none;
 }
 .faq-image{
     width:50%;
@@ -455,6 +468,9 @@ input[type=checkbox]:checked ~.answer-p{
         float: right;
         margin-top:-25px;
     }
+    #faq-lines,#faq-h4{
+        display: block;
+    }
         .navBarList ul {
             position: static;
             display: none;
@@ -476,13 +492,17 @@ input[type=checkbox]:checked ~.answer-p{
             margin-top: 15%;
             margin-left: -70%;
         }
+       .main-text{
+         
+           justify-content: center;
+       }
     .plant_row{
         display:flex;
         flex-direction: column;
     }
     #About{
         flex-direction: column;
-    
+       margin-bottom: 50%;
     }
     .about-text{
         width: 100%;
@@ -495,7 +515,10 @@ input[type=checkbox]:checked ~.answer-p{
     .about-p{
         width:100%;
     }
-  
+    #contact{
+        height: 700px;
+
+    }
     form{
         width:80%;
     }
