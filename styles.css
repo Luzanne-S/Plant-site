@@ -118,6 +118,7 @@ ul{
     height: 100vh;
     width: 95vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -139,15 +140,11 @@ ul{
     font-size: 40px;
 }
 .main-text{
-   position: relative;
-   align-self: center;
-   margin-left:30%;
-   display: inline-flex;
+  justify-content: center;
    color: #fff;  
    font-size: 15px;
    font-weight: lighter;
    gap: 2em;
-   margin-top: -25%;
    line-height: 0.9;
    text-align: center;
 }
@@ -168,7 +165,6 @@ h2:after{
     margin-top: 10%;
     position: relative;
     color: #fff; 
-    margin-left:-40%;
     text-align:center;
     font-size:3rem;
     }
@@ -490,7 +486,7 @@ input[type=checkbox]:checked ~.answer-p{
             font-size: medium;
             justify-content: center;
             margin-top: 15%;
-            margin-left: -70%;
+           
         }
        .main-text{
          
@@ -500,9 +496,13 @@ input[type=checkbox]:checked ~.answer-p{
         display:flex;
         flex-direction: column;
     }
+    .img{
+        width:100%;
+        height: auto;
+    }
     #About{
         flex-direction: column;
-       margin-bottom: 50%;
+       margin-bottom:70%;
     }
     .about-text{
         width: 100%;
@@ -537,9 +537,21 @@ input[type=checkbox]:checked ~.answer-p{
         height: auto;
     }
 }
+@media (min-width:820px) and (max-width:1200px) {
+    #About{
+        margin-bottom: -30px;
+    }
 
+    .main-text{
+    margin-top: 300px;
+    }
 
-
+  .heading{
+      margin-top: -30px;
+    margin:auto;
+   font-size: 100%;
+    }
+}
 
 
 /*
