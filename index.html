@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
     <title>THE URBAN GARDEN</title>
   </head>
   <body>
@@ -71,14 +72,14 @@
  </div>
   <!--Requests and Orders-->
   <div id="contact">
-   <form>
+   <form id=" form" onClick="submission()">
     <h3 class="form-h3">CONTACT US</h3>
     <label for="fname">Name</label>
     <input type="text" id="fname" name="name" required>
     <label for="phone">Phone</label>
-    <input type="text" id="mail" name="lastname">
+    <input type="text" id="mail" name="phoneNumber">
     <label for="email">Email</label>
-    <input type="text" id="message" name="lastname"required>
+    <input type="text" id="email" name="email"required>
     <label for="subject">Message</label>
     <textarea id="subject" name="subject" style="height:200px" required></textarea>
     <input type="submit" value="Send">
