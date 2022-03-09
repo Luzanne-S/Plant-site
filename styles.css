@@ -4,6 +4,9 @@
     box-sizing: border-box;
    }
 
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Noto Sans', sans-serif;
     background-color: #EDEDEE;
@@ -53,10 +56,10 @@ ul{
 
 .navBarList li a{
     display:block;
-	min-width:140px;
+	min-width:90px;
 	text-align: center;
 	text-decoration: none;
-    padding: 10px 0;  
+    padding: 10px 5px;  
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -66,7 +69,7 @@ ul{
 .navBarList li:hover a{
     color:#30694B;
     height: 40px;
-	line-height: 40px;
+	
 }
 .nav-h4{
     float: left;
@@ -401,7 +404,9 @@ footer{
 .fa-brands{
     padding:10px;
 }
-
+.fa-brands:hover{
+    color:#808080;
+}
 .fa-angle-down{
     float:right;
    margin-left:10%;
