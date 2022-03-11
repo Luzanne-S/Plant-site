@@ -1,3 +1,4 @@
-#  Design Practice
+#  Plant Site
 
-Practicing my design skills based off on an existing template 
+This website is a ficticious e-commerce plant store.
+The site has a simple deisgn and function
