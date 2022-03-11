@@ -458,7 +458,13 @@ input[type=checkbox]:checked ~.answer-p{
     color:hsl(240, 6%, 50%);
     margin-top: 2%;
 }
-
+.shop-h1{
+    text-align: center;
+}
+.cacti-row,.plant-row,.succulent-row{
+    display: flex;
+    flex-direction:row ;
+}
 @media (max-width:820px) {
     .nav-h4{
         display:none;
