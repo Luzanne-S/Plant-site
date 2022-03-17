@@ -5,7 +5,7 @@ The site has a simple deisgn and function
 
 ### Screenshot
 
-![](./plant.png)
+![](images/plant.png)
 
 ### Links
 
