@@ -193,7 +193,7 @@ h2:after{
     margin-top: 5%;
     margin-bottom: 8%;
 }
-.plant1,.plant2,.plant3{
+.plant1,.plant2,.plant3,.plants-image-row,.cacti-image-row,.succulent-image-row{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -367,7 +367,7 @@ input[type=text],#subject{
     border:none;
 }
 
-  input[type=submit] {
+  #submitbtn{
     margin:auto;
     background-color: #808080;
     color: white;
@@ -377,10 +377,10 @@ input[type=text],#subject{
     cursor: pointer;
     margin-top: 15px;
   }
-  input[type=submit]:hover{
+  #submitbtn:hover{
       background: rgba( 255, 255, 255, 0.25 ) ;
       border:solid #fff 1px;
-     
+      color: #808080;
   }
   
   .footer_row{
@@ -478,8 +478,19 @@ input[type=checkbox]:checked ~.answer-p{
     margin-bottom: 5%;
     text-decoration: underline;
 }
+.plants-image-row{
+    background-color: #fff;
+}
 
-
+.add-to-cart{
+    padding:10px;
+    border:solid;
+    margin-top: 15px;
+}
+.add-to-cart:hover{
+    background-color: #30694B;
+    color: #EDEDEE;
+}
 @media (max-width:820px) {
     .nav-h4{
         display:none;
