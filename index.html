@@ -15,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="index.js"></script>
     <title>THE URBAN GARDEN</title>
   </head>
   <body>
@@ -75,8 +74,8 @@
    </div>
  </div>
   <!--Requests and Orders-->
-  <div id="contact">
-   <form id=" form" onClick="submission()">
+  <div id="contact" >
+   <form id=" form">
     <h3 class="form-h3">CONTACT US</h3>
     <label for="fname">Name</label>
     <input type="text" id="fname" name="name" required>
@@ -86,7 +85,7 @@
     <input type="text" id="email" name="email"required>
     <label for="subject">Message</label>
     <textarea id="subject" name="subject" style="height:200px" required></textarea>
-    <input type="submit" value="Send">
+    <button type="submit" id="submitbtn" value="Send">Send</button>
    </form>
   </div>
   <!--footer-->
@@ -114,6 +113,7 @@
         </div>
         </div> 
       </section>
+      <button type="button" class="btn btn up"><a href="#" style=" text-decoration: none;color: #fff;"><i class="fas fa-arrow-up"></i></a></button>
     </footer>
     <script>
       AOS.init();
