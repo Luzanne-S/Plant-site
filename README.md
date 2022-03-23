@@ -1,7 +1,7 @@
 #  Plant Site
 
 This website is a ficticious e-commerce plant store.
-The site has a simple deisgn and function
+The site has a simple design and function
 
 ### Screenshot
 
@@ -14,4 +14,4 @@ The site has a simple deisgn and function
 
 ### Built with
 
--
+-HTML and CSS
